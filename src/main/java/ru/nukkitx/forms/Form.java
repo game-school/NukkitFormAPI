@@ -28,4 +28,8 @@ public abstract class Form {
         playersForm.put(player.getName(), response);
         player.showFormWindow(form);
     }
+
+    public FormWindow getForm() {
+        return this.form;
+    }
 }
