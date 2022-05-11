@@ -1,4 +1,4 @@
-name: FormAPI
+name: NukkitFormAPI
 main: ru.nukkitx.FormAPI
 api: "1.0.9"
 version: "${pom.version}"
