@@ -28,4 +28,12 @@ public abstract class Form {
         playersForm.put(player.getName(), response);
         player.showFormWindow(form);
     }
+
+    /**Added after changes around Nukkit 1.18.30 where form handlers were completely overhauled.
+     * Handlers can be accessed through the object returned.
+     * @return The FormWindow object
+     */
+    public FormWindow getForm() {
+        return this.form;
+    }
 }
