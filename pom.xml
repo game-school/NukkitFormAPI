@@ -4,9 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.nukkitx</groupId>
-    <artifactId>FormAPI</artifactId>
-    <version>2.2-SNAPSHOT</version>
+    <groupId>com.github.game-school</groupId>
+    <artifactId>NukkitFormAPI</artifactId>
+    <version>1.1</version>
+    <url>https://www.gameschool.org/</url>
+
+    <properties>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 
     <build>
         <resources>
